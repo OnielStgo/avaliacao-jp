@@ -8,6 +8,26 @@ body {
   background: linear-gradient(to right, rgb(58, 151, 238), rgb(126, 66, 194));
 }
 
+header {
+  width: 80%;
+}
+
+.menu {
+  display: flex;
+  justify-content: end;
+  width: 80;
+ 
+  gap: 50px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  list-style-type: none;
+
+}
+
+.item-menu {
+  text-decoration-style: none;
+}
+
 img {
   border-radius: 50%;
   height: 300px;
@@ -39,8 +59,6 @@ article {
   width: 80%;
 }
 
-
-
 li {
   font-size: x-large;
 }
@@ -50,5 +68,16 @@ div {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.caixa {
+  height: 200px;
+  width: 400px;
+  background-color: rgb(146, 151, 151);
+}
+
+.motivacao {
+  margin-top: 70px;
+  margin-bottom: 15px;
 }
 
